@@ -1,0 +1,25 @@
+\chapter{Introduction}
+\label{chap:intro}
+\pagenumbering{arabic}
+\setcounter{page}{6}
+
+For more than fifteen years, 333networks has been hosting a masterserver. A lot of design iterations were made over the years. In this document, all acquired knowledge has been collected.
+
+\section{Online gaming}
+Since the early years of classic and modern (electronic) games, people have felt a need to play together. In the eighties, text- and turn-based games found their way onto universities' mainframes and formed the base for multiplayer games. As personal computers became the norm, the introduction of the personal computer made it possible for people at home to play together on a system with split screen and four hands on a keyboard. With the invention of the internet, it became possible to play together over great distances.
+
+\section{Masterserver}
+Since 1995, a large number of game titles were released with the capability to play online together. Online games provided the need for the development of networking protocols that made it possible to play together on different systems. Some games required a direct connection with each other (peer-to-peer) whereas other games utilised a server-client hierarchy. In order to find each other on the vastness of the world wide web, technologies were developed to connect peers, game servers and clients together. One of the technologies that was developed for this purpose was a \emph{masterserver}. This technology provides an infrastructure for game servers and game players to interact and play together.\\
+
+Game developers would initially develop their own multiplayer protocol and masterserver for their game title. With the rise of \emph{GameSpy Industries} in 1995, game developers had the possibility to choose for proprietary software and third party services to provide the multiplayer aspects, matchmaking and masterserver support for their games. With the rise of broadband internet and reliable masterserver services available, it was no longer necessary to develop their own protocols and maintain their own masterserver hardware. Many game developers followed and dependant on \emph{GameSpy}'s services or discontinued their own masterserver infrastructure in favour of the existing services.
+
+\section{Loss of GameSpy}
+In the autumn of 2008, all masterserver services for two of the titles, \emph{Unreal} and \emph{Unreal Tournament 1999} published by \emph{Epic Megagames Inc\textsuperscript{\textcopyright}} went down at the same time. For three days, thousands of players, were frustrated that not a single online server showed up in the server browser\cite{bu2008,ou2008}. In the spring of 2010, the masterserver infrastructure became even more fragile when the rebranded \emph{Epic Games} permanently shut down their masterserver. Effectively, thousands of gamers now depended on a single remaining GameSpy masterserver. In December 2013, \emph{GameSpy Industries} was bought by GLU Technologies, leading to the shutdown of all \emph{GameSpy} services on May 31, 2014\cite{nutt2014, stapleton2013}.\\
+
+Game developers and publishers who had relied on \emph{GameSpy} to provide online multiplayer support for two decades, were left empty-handed. People who bought expensive game titles were no longer able to play online in the era where connecting with each other is essential. In response to the shutdown, some game developers like \emph{Epic Games} returned to an in-house solution. Many other multiplayer titles and their communities had no such luck.
+
+\section{Filling the void}
+In the early years of this century, a number of Unreal Tournament players and their clans worked together to display (interactive) statistics of their game servers. Through \emph{php}-scripts it was possible to obtain server information and display this on websites for one or more individual servers. With a small group of people, we started \emph{333networks} as a statistics website and private game server host for Unreal Tournament 1999. With more understanding of \emph{server queries} and \emph{network infrastructure}, 333networks started experimenting with replicating properties of the masterserver to obtain more server information for display. This lead to the development of an intrinsic masterserver that could list all cooperating Unreal Tournament servers on the website. Due to various successes, 333networks continued with the development of a fully functional masterserver with integrated website, which was completed mere months before \emph{GameSpy} shut down in 2014. This document contains all the knowledge that was accumulated in the process of developing and expanding the 333networks version of the masterserver.
+
+\section{Content overview}
+TODO: in this section we describe what information can be found where. This is not a repetition of the table of contents, but a contextual, descriptive narration of the document itself to justify the chosen order of information. Save this for later.

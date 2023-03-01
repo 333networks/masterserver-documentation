@@ -1,0 +1,104 @@
+
+% % % % % % % % % %
+% P A C K A G E S %
+% % % % % % % % % %
+
+\usepackage[english]{babel}
+\usepackage{anonchap}
+\usepackage[left=3cm,top=3cm,right=3cm,bottom=3cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage[x11names]{xcolor}
+\usepackage{hyphenat} 
+\usepackage[pdftex]{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{appendix}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{url}
+\usepackage[super,square,comma]{natbib}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+% % % % % % % % % %
+% S E T T I N G S %
+% % % % % % % % % %
+\title{333networks masterserver technical reference}
+\author{Darkelarious}
+
+\usetikzlibrary{shapes,arrows,angles, calc}
+
+\simplechapter
+
+\newcommand{\HRule}{\rule{\linewidth}{0.1mm}}
+\renewcommand{\simplechapterdelim}{.}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+%\setlength{\parindent}{0in}
+
+% header/footer
+\pagestyle{fancyplain}
+\setlength{\headheight}{14pt}
+\fancyhf[LH]{\nouppercase\leftmark}
+\fancyhf[CH]{}
+\fancyhf[RH]{Masterserver}
+\fancyhf[LF]{\raisebox{-10pt}{\includegraphics[height=20pt]{./img/333networks-bw}}}
+\fancyhf[CF]{}
+\fancyhf[RF]{\thepage{}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\hbadness 10000
+
+% do not reset footnote counter
+\counterwithout{footnote}{chapter}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=SpringGreen4,
+  filecolor=darkgray,
+  urlcolor=blue
+} 
+
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{lightgray}{rgb}{0.95,0.95,0.95}
+\definecolor{darkgray}{rgb}{.3,.3,.3}
+
+
+\lstset{
+  basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+  numbers=left,                   % where to put the line-numbers
+  numberstyle=\color{gray},       % the style that is used for the line-numbers
+  stepnumber=1,                   % the step between two line-numbers. If it's 1, each line 
+                                  % will be numbered
+  numbersep=10pt,                 % how far the line-numbers are from the code
+  backgroundcolor=\color{lightgray}, % choose the background color. You must add \usepackage{color}
+  %showspaces=false,               % show spaces adding particular underscores
+  %showstringspaces=false,         % underline spaces within strings
+  %showtabs=false,                 % show tabs within strings adding particular underscores
+  frame=tb,                       % lines above and below
+  %rulecolor=\color{gray},          % colored in a slightly darker gray
+  %framesep=3pt,
+  %tabsize=2,                      % sets default tabsize to 2 spaces
+  %captionpos=b,                   % sets the caption-position to bottom
+  %breaklines=true,                % sets automatic line breaking
+  %breakatwhitespace=true,         % sets if automatic breaks should only happen at whitespace
+  %keywordstyle=\bfseries,          % keywords are bold
+  %emphstyle=\itshape\color{green!30!black},
+  %xleftmargin=5pt,
+  framexleftmargin=1cm,
+  xleftmargin=4cm,
+  xrightmargin=4cm,
+  %keywordstyle=\bfseries\color{green!40!black},
+  %commentstyle=\itshape\color{gray!40!black},
+  %identifierstyle=\color{black},
+  %stringstyle=\color{orange},
+  firstnumber=1
+}
+

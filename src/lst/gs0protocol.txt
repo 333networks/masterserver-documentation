@@ -1,0 +1,6 @@
+\key\value
+\key_1\value_1\key_2\value_2
+\queryid\11.1
+\tournament\False
+\echo\some text
+

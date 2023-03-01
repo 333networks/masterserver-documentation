@@ -1,0 +1,6 @@
+\basic\\secure\wookie\final\
+\gamename\ut\gamever\348\minnetver\348\location\0\queryid\11.1
+\validate\2/TYFMRc\final\\queryid\11.2
+\list\\gamename\ut
+\list\cmp\gamename\serioussam
+\ip\255.255.255.255:7778\ip\255.255.255.255:12556\...\final\
